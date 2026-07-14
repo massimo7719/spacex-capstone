@@ -1,0 +1,45 @@
+{
+  "results": {
+    "Logistic Regression": {
+      "best_params": {
+        "C": 1,
+        "solver": "lbfgs"
+      },
+      "cv_best_score": 0.9522344322344323,
+      "test_accuracy": 0.9541984732824428
+    },
+    "SVM": {
+      "best_params": {
+        "C": 10,
+        "gamma": "scale",
+        "kernel": "linear"
+      },
+      "cv_best_score": 0.9446153846153846,
+      "test_accuracy": 0.9541984732824428
+    },
+    "Decision Tree": {
+      "best_params": {
+        "criterion": "gini",
+        "max_depth": 2,
+        "min_samples_leaf": 1
+      },
+      "cv_best_score": 0.9637179487179488,
+      "test_accuracy": 0.9618320610687023
+    },
+    "KNN": {
+      "best_params": {
+        "n_neighbors": 7,
+        "p": 2
+      },
+      "cv_best_score": 0.9522344322344323,
+      "test_accuracy": 0.9541984732824428
+    }
+  },
+  "best_model": "Decision Tree",
+  "n_train": 523,
+  "n_test": 131,
+  "class_balance_train": {
+    "success": 490,
+    "failure": 33
+  }
+}
